@@ -14,7 +14,9 @@
   --border: rgba(160,178,204,0.11);
   --border-strong: rgba(186,205,229,0.16);
   --text: #e6edf7;
+  --text-secondary: #a8b6ca;
   --text-soft: #8ea0bc;
+  --text-muted: #7286a7;
   --accent: #58a6ff;
   --positive: #48b97a;
   --negative: #d56a6a;
@@ -97,7 +99,7 @@ a { color:inherit; }
   content:"LIVE STRATEGY PANEL";
   display:block;
   margin-bottom:8px;
-  color:#7286a7;
+  color:var(--text-muted);
   font-size:0.58rem;
   font-weight:700;
   letter-spacing:0.18em;
@@ -114,7 +116,7 @@ a { color:inherit; }
 
 .hero .subtitle {
   margin-top:8px;
-  color:var(--text-soft);
+  color:var(--text-secondary);
   font-size:0.84rem;
   line-height:1.32;
   letter-spacing:0.012em;
@@ -127,7 +129,7 @@ a { color:inherit; }
 .hero-meta {
   min-width:160px;
   text-align:right;
-  color:var(--text-soft);
+  color:var(--text-secondary);
   font-size:0.68rem;
   text-transform:uppercase;
   letter-spacing:0.08em;
@@ -136,7 +138,7 @@ a { color:inherit; }
 .hero-meta::before {
   content:"System Time";
   display:block;
-  color:#7286a7;
+  color:var(--text-muted);
   font-size:0.58rem;
   font-weight:700;
   letter-spacing:0.16em;
@@ -185,7 +187,7 @@ a { color:inherit; }
 .config-label {
   display:block;
   font-size:0.62rem;
-  color:#8497b5;
+  color:var(--text-soft);
   text-transform:uppercase;
   letter-spacing:0.16em;
   margin-bottom:6px;
@@ -198,6 +200,12 @@ a { color:inherit; }
   font-weight:600;
   line-height:1.25;
   font-variant-numeric: tabular-nums;
+}
+
+.config-item:first-child .config-value {
+  white-space:nowrap;
+  font-size:0.8rem;
+  letter-spacing:0.01em;
 }
 
 .section {
@@ -222,7 +230,7 @@ a { color:inherit; }
 }
 
 .section-note {
-  color:var(--text-soft);
+  color:var(--text-secondary);
   font-size:0.74rem;
   line-height:1.35;
   max-width:52ch;
@@ -285,7 +293,7 @@ a { color:inherit; }
 .kpi-card .label,
 .mini-card .label {
   font-size:0.62rem;
-  color:#8395b2;
+  color:var(--text-soft);
   text-transform:uppercase;
   letter-spacing:0.16em;
   font-weight:700;
@@ -313,7 +321,7 @@ a { color:inherit; }
 .kpi-card .sub,
 .mini-card .sub {
   font-size:0.72rem;
-  color:#9caac0;
+  color:var(--text-secondary);
   line-height:1.28;
   max-width:24ch;
   min-height:1.2em;
@@ -385,7 +393,7 @@ a { color:inherit; }
 .tab {
   padding:8px 14px;
   cursor:pointer;
-  color:#8ea0bc;
+  color:var(--text-soft);
   font-size:0.78rem;
   font-weight:560;
   border-radius:999px;
@@ -452,7 +460,7 @@ a { color:inherit; }
 }
 
 .card-head p {
-  color:#9cabc0;
+  color:var(--text-secondary);
   font-size:0.72rem;
   margin-top:3px;
   line-height:1.36;
@@ -503,7 +511,7 @@ table {
 
 th {
   background:rgba(255,255,255,0.022);
-  color:#a2b1c7;
+  color:var(--text-soft);
   padding:10px 12px;
   text-align:left;
   font-weight:700;
@@ -519,7 +527,7 @@ th {
 td {
   padding:10px 12px;
   border-top:1px solid var(--border);
-  color:#d8e0ec;
+  color:var(--text);
   line-height:1.35;
   font-variant-numeric: tabular-nums;
   white-space:nowrap;
@@ -546,7 +554,7 @@ tbody tr:hover td:first-child {
 }
 
 .comp-table td:first-child {
-  color:#a1afc5;
+  color:var(--text-secondary);
   font-weight:600;
 }
 
@@ -573,24 +581,24 @@ tbody tr:hover td:first-child {
 
 #tradeTable tbody tr td:first-child,
 .comp-table tbody tr td:first-child {
-  color:#dfe7f2;
+  color:var(--text);
   font-weight:560;
 }
 
 #tradeTable tbody tr td:nth-child(2) {
-  color:#9fb1cb;
+  color:var(--text-soft);
   font-size:0.76rem;
   text-transform:uppercase;
   letter-spacing:0.08em;
 }
 
 #tradeTable tbody tr td:last-child {
-  color:#9fb0c7;
+  color:var(--text-secondary);
   font-size:0.76rem;
 }
 
 #tradeTable tbody tr:hover td:last-child {
-  color:#c4d1e4;
+  color:var(--text);
 }
 
 #tradeCount {
@@ -676,7 +684,7 @@ table {
 }
 
 .footer-meta div {
-  color:var(--text-soft);
+  color:var(--text-secondary);
   font-size:0.74rem;
   line-height:1.35;
   padding:10px 12px;
@@ -688,13 +696,13 @@ table {
 .footer-meta strong { color:var(--text); font-weight:650; }
 
 .footer-meta span {
-  color:#dbe4ef;
+  color:var(--text);
 }
 
 footer {
   text-align:center;
   padding:8px 0 0;
-  color:var(--text-soft);
+  color:var(--text-secondary);
   font-size:0.72rem;
   letter-spacing:0.03em;
 }
