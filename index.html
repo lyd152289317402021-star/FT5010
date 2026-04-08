@@ -156,7 +156,15 @@ a { color:inherit; }
 
 .config-bar {
   display:grid;
-  grid-template-columns:repeat(8, minmax(0, 1fr));
+  grid-template-columns:
+    minmax(240px, 2fr)
+    minmax(180px, 1.25fr)
+    minmax(180px, 1.3fr)
+    minmax(110px, 0.85fr)
+    minmax(120px, 0.9fr)
+    minmax(130px, 0.95fr)
+    minmax(120px, 0.9fr)
+    minmax(120px, 0.9fr);
   gap:0;
   border:1px solid var(--border);
   border-radius:12px;
@@ -212,6 +220,14 @@ a { color:inherit; }
   display:flex;
   flex-direction:column;
   gap:10px;
+}
+
+.section-intro {
+  color:var(--text-secondary);
+  font-size:0.74rem;
+  line-height:1.35;
+  letter-spacing:0.01em;
+  margin-bottom:2px;
 }
 
 .section-header {
@@ -672,7 +688,7 @@ table {
 
 .meta-grid {
   display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
+  grid-template-columns:repeat(2, minmax(320px, 1fr));
   gap:10px;
 }
 
@@ -696,7 +712,8 @@ table {
 .footer-meta strong { color:var(--text); font-weight:650; }
 
 .footer-meta span {
-  color:var(--text);
+  color:var(--text-secondary);
+  font-weight:500;
 }
 
 footer {
@@ -714,10 +731,11 @@ footer {
 }
 
 @media (max-width:1180px) {
-  .config-bar { grid-template-columns:repeat(4, minmax(0, 1fr)); }
+  .config-bar { grid-template-columns:repeat(3, minmax(0, 1fr)); }
   .span-8, .span-6, .span-4, .span-3, .span-2 { grid-column:span 12; }
   .kpi-grid, .secondary-grid { grid-template-columns:repeat(6, minmax(0, 1fr)); }
   .section-note { text-align:left; max-width:none; }
+  .meta-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width:820px) {
@@ -759,12 +777,12 @@ footer {
   </header>
 
   <section class="section">
+    <div class="section-intro">Test-set performance metrics presented in a compact institutional layout.</div>
     <div class="section-header">
       <div>
         <div class="section-kicker">Performance Summary</div>
         <div class="section-title">Core KPI Snapshot</div>
       </div>
-      <div class="section-note">Test-set performance metrics presented in a compact institutional layout</div>
     </div>
     <div class="kpi-grid" id="kpiGrid"></div>
     <div class="secondary-grid" id="secondaryKpiGrid"></div>
@@ -982,8 +1000,8 @@ footer {
 
   <div class="panel footer-meta">
     <div class="meta-grid">
-      <div><strong>Data Source:</strong> Yahoo Finance hourly FX data</div>
-      <div><strong>Benchmark Source:</strong> Buy-and-hold of <span id="benchmarkName"></span></div>
+      <div><strong>Data Source:</strong> <span>Yahoo Finance hourly FX data</span></div>
+      <div><strong>Benchmark Source:</strong> <span>Buy-and-hold of <span id="benchmarkName"></span></span></div>
       <div><strong>Risk-Free Assumption:</strong> <span id="riskFreeAssumption"></span></div>
       <div><strong>Transaction Cost:</strong> <span id="txCostAssumption"></span></div>
     </div>
