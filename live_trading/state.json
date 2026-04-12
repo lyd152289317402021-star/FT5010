@@ -1,0 +1,491 @@
+{
+  "time": "2026-04-11T17:02:51.026916",
+  "start_time": "2026-04-11T14:28:17.505154",
+  "nav": 100434.8601,
+  "balance": 100434.8601,
+  "unrealized_pl": 0.0,
+  "peak_nav": 100434.8601,
+  "drawdown_pct": 0.0,
+  "positions": {
+    "EUR_USD": 0,
+    "GBP_USD": 0,
+    "USD_JPY": 0,
+    "USD_CHF": 0,
+    "AUD_USD": 0,
+    "USD_CAD": 0,
+    "NZD_USD": 0
+  },
+  "signals": {
+    "EUR_USD": 0.3037441584761264,
+    "GBP_USD": -4.912490057349347,
+    "USD_JPY": 7.143077357271109,
+    "USD_CHF": 11.223846750699446,
+    "AUD_USD": 0.6999233698827192,
+    "USD_CAD": 13.277674506219634,
+    "NZD_USD": -8.552332148840357
+  },
+  "prices": {
+    "EUR_USD": 1.1725,
+    "GBP_USD": 1.346,
+    "USD_JPY": 159.275,
+    "USD_CHF": 0.78916,
+    "AUD_USD": 0.70639,
+    "USD_CAD": 1.38431,
+    "NZD_USD": 0.58363
+  },
+  "trades": [
+    {
+      "time": "2026-04-11T16:54:46.731982",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T16:55:56.119321",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T16:57:06.834234",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T16:58:14.189800",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T16:59:21.449733",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T17:00:32.081221",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T17:01:40.978683",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "EUR_USD",
+      "delta": 1000,
+      "target": 1000,
+      "current": 0,
+      "forecast": 0.3037441584761264,
+      "close": 1.1725
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "GBP_USD",
+      "delta": -9000,
+      "target": -9000,
+      "current": 0,
+      "forecast": -4.912490057349347,
+      "close": 1.346
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "USD_JPY",
+      "delta": 21000,
+      "target": 21000,
+      "current": 0,
+      "forecast": 7.143077357271109,
+      "close": 159.275
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "USD_CHF",
+      "delta": 24000,
+      "target": 24000,
+      "current": 0,
+      "forecast": 11.223846750699446,
+      "close": 0.78916
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "AUD_USD",
+      "delta": 2000,
+      "target": 2000,
+      "current": 0,
+      "forecast": 0.6999233698827192,
+      "close": 0.70639
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "USD_CAD",
+      "delta": 53000,
+      "target": 53000,
+      "current": 0,
+      "forecast": 13.277674506219634,
+      "close": 1.38431
+    },
+    {
+      "time": "2026-04-11T17:02:51.026916",
+      "inst": "NZD_USD",
+      "delta": -22000,
+      "target": -22000,
+      "current": 0,
+      "forecast": -8.552332148840357,
+      "close": 0.58363
+    }
+  ],
+  "killed": true,
+  "kill_requested": false,
+  "reason": "dashboard"
+}

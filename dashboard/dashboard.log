@@ -1,0 +1,562 @@
+Dashboard: http://127.0.0.1:8050
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [11/Apr/2026 16:32:29] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:32:39] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:32:42,669] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:32:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:32:46,669] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:32:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:32:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:32:59] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:33:42,672] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:33:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:33:42] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:33:46,668] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:33:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:34:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:28] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:29] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:34:36] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:34:42,668] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:34:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:34:46,672] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:34:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:35:42,669] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:35:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:35:46,671] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:35:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:36:42,677] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:36:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:36:46] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:36:46] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:36:46,669] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:36:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:36:56] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:37:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:37:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:37:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:37:36] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:37:42,667] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:37:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:37:46] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:37:46,665] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:37:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:37:56] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:36] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:38:42,667] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:38:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:38:46] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:38:46,666] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:38:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:38:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:38:59] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:40] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:40] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:39:41] "POST /_dash-update-component HTTP/1.1" 200 -
+[2026-04-11 16:39:42,671] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:39:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:39:46,666] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:39:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:40:42,666] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:40:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:40:46,667] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:40:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:41:33,977] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:41:33] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+[2026-04-11 16:41:35,399] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1493, in _prepare_callback
+    cb = self.callback_map[output]
+KeyError: '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/_get_app.py", line 17, in wrap
+    return ctx.run(func, self, *args, **kwargs)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1596, in dispatch
+    func = self._prepare_callback(g, body)
+  File "/opt/anaconda3/envs/clean_env/lib/python3.9/site-packages/dash/dash.py", line 1527, in _prepare_callback
+    raise KeyError(f"Callback function not found for output '{output}'.") from e
+KeyError: "Callback function not found for output '..kpi-row.children...equity-chart.figure...positions-table.data...trades-table.data...status-bar.children...equity-history.data..'."
+127.0.0.1 - - [11/Apr/2026 16:41:35] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "GET /_favicon.ico?v=4.1.0 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Apr/2026 16:41:38] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Apr/2026 16:41:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:41:42] "POST /_dash-update-component HTTP/1.1" 200 -
