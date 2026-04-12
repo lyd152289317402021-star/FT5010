@@ -38,4 +38,5 @@ MAX_DRAWDOWN_PCT   = 0.25         # kill switch triggers at 25% drawdown
 MAX_LEVERAGE       = 4.0
 
 # ---- State file (shared with dashboard) ----
-STATE_FILE         = "state.json"
+import os
+STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
